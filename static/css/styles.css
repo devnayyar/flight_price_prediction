@@ -1,0 +1,41 @@
+/* body {
+    
+    text-align: center;
+} */
+
+ 
+  body {
+    text-align: center;
+    background-image: url('https://i.imgur.com/WUGBcLg.png');
+    background-repeat: repeat;
+    }
+    
+    /* Make the navbar colorful and animated */
+    .navbar {
+    background-color: #333333;
+    animation-name: rainbow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    }
+    
+    /* Add some animation to the links */
+    a {
+    color: #f1f9f9;
+    transition: all 0.3s ease-in-out;
+    }
+    
+    /* Make the links change color on hover */
+    a:hover {
+    color: #f0f0f0;
+    transform: rotate(360deg);
+    }
+    
+    /* Add a rainbow animation to the navbar */
+    @keyframes rainbow {
+    0% { background-color: #FF4136; }
+    20% { background-color: #FF851B; }
+    40% { background-color: #FFDC00; }
+    60% { background-color: #2ECC40; }
+    80% { background-color: #0074D9; }
+    100% { background-color: #B10DC9; }
+    }
